@@ -1,5 +1,5 @@
 <template>
-	<section class="bg-gray-200 text-center dark:bg-slate-800" id="event">
+	<section class="bg-[#F9F5EB] text-center dark:bg-slate-800" id="event">
 		<div class="py-12 md:py-24">
 			<h2 class="font-body text-4xl text-yellow-800 dark:text-yellow-300/90 md:text-7xl" data-aos="zoom-in" data-aos-duration="750">Acara Pernikahan</h2>
 			<div class="mx-auto w-2/4 py-4 md:py-8">

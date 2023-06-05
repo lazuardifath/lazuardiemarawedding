@@ -1,5 +1,5 @@
 <template>
-	<nav class="fixed bottom-5 left-1/2 z-40 h-16 max-w-xs -translate-x-1/2 rounded-lg bg-gray-400 shadow dark:bg-slate-800 md:hidden">
+	<nav class="fixed bottom-5 left-1/2 z-40 h-16 max-w-xs -translate-x-1/2 rounded-lg bg-[#d8b31f] shadow dark:bg-slate-800 md:hidden">
 		<ul class="flex h-full w-full items-center justify-center gap-x-4 overflow-hidden px-3">
 			<li class="group w-full text-center">
 				<button class="inline-flex flex-col items-center justify-center gap-y-1" type="button" title="Pengantin" @click="back(brideSection)">

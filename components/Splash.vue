@@ -35,7 +35,8 @@
 	});
 
 	const loadPage = async () => {
-		const main = document.querySelector('main');
+		const main = document.getElementById('main');
+		window.scrollTo(0,0);
 		const splash = document.getElementById('splash');
 		const audio = document.getElementById('audio') as HTMLAudioElement | null;
 

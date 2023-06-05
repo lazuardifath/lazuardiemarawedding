@@ -1,17 +1,20 @@
 <template>
-	<section class="bg-stone-400 text-center dark:bg-stone-200" id="gallery">
+	<section class="bg-[#0B2447] text-center dark:bg-amber-100" id="gallery">
 		<div class="pt-12 md:pt-20">
 			<h2 class="font-body text-5xl text-gray-200 dark:text-slate-600 md:text-7xl" data-aos="zoom-in" data-aos-duration="750">Galeri</h2>
 			<div class="mx-auto w-2/3" data-aos="zoom-in" data-aos-duration="750">
-				<h3 class="mt-5 font-serif text-sm italic text-gray-200 dark:text-slate-600 md:text-base">Setiap kisah cinta itu indah, tapi kisah cinta kita adalah favoritku.</h3>
+				<h3 class="mt-5 font-serif text-sm italic text-gray-200 dark:text-slate-600 md:text-base">Setiap kisah cinta itu indah, tapi kisah cinta kita adalah favorit bagi kita.</h3>
 			</div>
 			<div class="mx-auto w-2/4 py-6 md:py-8">
 				<hr class="border-gray-200 dark:border-slate-600" />
 			</div>
 		</div>
-		<div class="mx-auto max-w-xs pb-20 md:max-w-2xl lg:max-w-4xl">
+		<div class="mx-auto max-w-full z-20 pb-8 md:max-w-2xl lg:max-w-3xl text-center">
+			<video class="breathe" src="/video/prewed.mp4" autoplay muted loop></video>
+		</div>
+		<div class="mx-auto max-w-xs z-20 pb-20 md:max-w-2xl lg:max-w-4xl">
 			<Swiper
-				class="h-full w-full"
+				class="h-full w-full z-20"
 				:spaceBetween="20"
 				:modules="[SwiperNavigation]"
 				:breakpoints="{ 320: { slidesPerView: 1, spaceBetween: 20 }, 480: { slidesPerView: 2, spaceBetween: 20 }, 640: { slidesPerView: 3, spaceBetween: 20 } }"
@@ -19,7 +22,7 @@
 				:slidesPerView="3"
 				:loop="true"
 			>
-				<SwiperSlide class="group" v-for="slide in 3" :key="slide">
+				<SwiperSlide class="group z-20" v-for="slide in 3" :key="slide">
 					<div class="overflow-hidden">
 						<img class="h-full w-full bg-center object-cover transition-transform duration-1000 group-hover:scale-125" :src="`/images/gallery${slide}.jpg`" :alt="`Bride Image ${slide}`" loading="lazy" />
 					</div>

@@ -1,9 +1,9 @@
 <template>
-	<section class="bg-gray-200 dark:bg-slate-800" id="wish">
+	<section class="bg-[#F9F5EB] dark:bg-slate-800" id="wish">
 		<div class="mx-auto max-w-xs py-12 md:max-w-2xl md:py-16 lg:max-w-4xl">
 			<h2 class="text-center font-serif text-2xl uppercase tracking-widest text-slate-600 dark:text-gray-100 md:text-4xl" data-aos="zoom-in" data-aos-duration="750">Harapan & Do'a</h2>
 			<h3 class="mt-4 mb-10 text-center font-serif text-sm italic text-slate-600 dark:text-gray-100 md:text-base" data-aos="zoom-in" data-aos-duration="750">Sampaikan do'a dan ucapan terbaik Anda untuk kedua mempelai.</h3>
-			<div class="rounded-2xl bg-stone-400 p-8 shadow dark:bg-gray-200">
+			<div class="rounded-2xl bg-[#0B2447] p-8 shadow dark:bg-gray-200">
 				<div class="space-y-6">
 					<span class="block text-center font-semibold text-gray-200 dark:text-slate-600">{{ totalWish }} Komentar</span>
 					<div class="flex items-center justify-center gap-x-10">
@@ -80,7 +80,7 @@
 						Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila {{ recipient }} berkenan hadir dan memberikan do'a restunya untuk keberkahan pernikahan kami.
 					</p>
 					<p class="text-sm text-slate-600 dark:text-gray-200 md:text-base" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">Atas do'a dan restunya, kami ucapkan terima kasih.</p>
-					<h3 class="font-serif text-3xl text-yellow-800 dark:text-yellow-300/90" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">Rudi & Shella</h3>
+					<h3 class="font-serif text-3xl text-yellow-800 dark:text-yellow-300/90" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">Lazuardi & Emara</h3>
 				</div>
 			</div>
 		</div>

@@ -15,7 +15,7 @@ export default defineNuxtConfig({
 				{ rel: 'icon', href: '/favicon.ico' },
 				{ rel: 'shortcut icon', href: '/favicon.ico' },
 				{ rel: 'apple-touch-icon', href: '/favicon/favicon-16x16.png', sizes: '16x16x' },
-				{ rel: 'apple-touch-icon', href: '/favicon/favicon-32x32.png', sizes: '32x32' },
+				{ rel: 'apple-touch-icon', href: '/favicon/favicon-32x32.png', sizes: '32x32x' },
 				{ rel: 'preload', as: 'image', href: '/images/gallery4.jpg' },
 			],
 			meta: [

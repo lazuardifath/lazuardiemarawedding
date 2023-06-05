@@ -1,5 +1,5 @@
 <template>
-	<section class="bg-stone-400 py-12 text-center dark:bg-stone-200 md:py-24" id="protocol">
+	<section class="bg-[#0B2447] py-12 text-center dark:bg-stone-200 md:py-24" id="protocol">
 		<div class="mx-auto max-w-xs md:max-w-2xl lg:max-w-4xl">
 			<h2 class="font-serif text-2xl font-bold uppercase tracking-[0.2em] text-yellow-300/90 dark:text-yellow-800 md:text-4xl" data-aos="zoom-in" data-aos-duration="750">Protokol Kesehatan</h2>
 			<div class="mx-auto w-full md:w-3/4" data-aos="zoom-in" data-aos-duration="750">

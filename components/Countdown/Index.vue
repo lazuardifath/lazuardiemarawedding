@@ -1,5 +1,5 @@
 <template>
-	<section class="bg-stone-400 py-6 text-center dark:bg-stone-200 md:pt-10 md:pb-20">
+	<section class="bg-[#0B2447] py-6 text-center dark:bg-amber-100 md:pt-10 md:pb-20">
 		<h2 class="font-serif text-xl font-bold uppercase tracking-[0.2em] text-yellow-300/90 dark:text-yellow-800 md:text-4xl" data-aos="fade-up" data-aos-duration="1000">Menghitung Hari</h2>
 		<div class="mx-auto w-4/5 md:w-3/5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
 			<p class="mt-6 font-serif text-sm italic text-gray-200 dark:text-gray-700">
@@ -16,10 +16,24 @@
 				</div>
 			</VueCountdown>
 		</ClientOnly>
+		<div class="flex flex-col items-center justify-center gap-y-4 text-center z-10 md:gap-y-4 lg:gap-y-4">
+		<add-to-calendar-button
+					name="Lazuardi & Emara Wedding Day!"
+					description="Lazuardi & Emara Wedding Day!"
+					startDate="2023-07-01"
+					startTime="11:00"
+					endDate="2023-07-01"
+					endTime="14:00"
+					timeZone="Asia/Jakarta"
+					location="Gedung KORPRI, Jl. DR. Soetomo No.2, Prenam, Dukuhwringin, Kec. Slawi, Kabupaten Tegal, Jawa Tengah"
+					options="'Apple','Google','iCal'"
+					buttonStyle="3d"
+			></add-to-calendar-button>
+		</div>
 	</section>
 </template>
 
 <script setup lang="ts">
-	const countdown = new Date('Feb 19, 2023 08:00:00').getTime() - new Date().getTime();
+	const countdown = new Date('Jul 01, 2023 08:00:00').getTime() - new Date().getTime();
 	const time = countdown < 0 ? 0 : countdown;
 </script>

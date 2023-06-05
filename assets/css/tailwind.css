@@ -14,9 +14,28 @@
 
 
 @layer components {
-	main{
-		scroll-behavior: smooth;
+	.dark #wave1{
+		fill: rgba(254, 243, 199, 0.7);
 	}
+	.dark #wave2{
+		fill: rgba(254, 243, 199, 0.5);
+	}
+	.dark #wave3{
+		fill: rgba(254, 243, 199, 0.3);
+	}
+	.dark #wave4{
+		fill: rgb(254, 243, 199);
+	}
+	.bgges2 {
+		background: radial-gradient(ellipse at bottom, rgb(254 243 199) 0%, rgb(216, 179, 31) 100%);
+		overflow: hidden;
+	  }
+	.breathe{
+		animation: mymove 5s infinite;
+	}
+	@keyframes mymove {
+		20% {box-shadow: 0 8px 20px -4px white;}
+	  }
 	.bgges {
 		background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 		overflow: hidden;
@@ -88,6 +107,19 @@
         width: 500px;
         height: 200px;
     }
+	#lottie-icon2{
+		align-content: center;
+        width: 100px;
+        height: 100px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+	#lottie-icon2{
+		align-content: center;
+        width: 100px;
+        height: 100px;
+    }
   }
 
   #stars {
@@ -158,6 +190,7 @@
   #title span {
 	background: -webkit-linear-gradient(white, #38495a);
 	-webkit-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
   }
   
@@ -171,3 +204,26 @@
   }
 }
 
+.background {
+	width: 100vw;
+	height: 100vh;
+	background: #3E1E68;
+  }
+  
+  .background span {
+	width: 20vmin;
+	height: 20vmin;
+	border-radius: 20vmin;
+	backface-visibility: hidden;
+	position: absolute;
+	animation-name: move;
+	animation-duration: 6s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+  }
+  
+  @keyframes move {
+	100% {
+	  transform: translate3d(0, 0, 1px) rotate(360deg);
+	}
+  }

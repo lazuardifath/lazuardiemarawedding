@@ -1,6 +1,6 @@
 <template>
-	<div class="fixed bottom-[6.0rem] right-5 z-40 flex flex-col gap-y-2 md:bottom-5">
-		<button :class="`floating-btn ${scroll}`" id="backToTop" type="button" title="Kembali ke Atas" @click="back">
+	<div class="fixed bottom-[7rem] right-5 lg:right-8 z-30 flex flex-col gap-y-2 md:bottom-5">
+		<button :class="`bg-[#d8b31f] floating-btn ${scroll}`" id="backToTop" type="button" title="Kembali ke Atas" @click="back">
 			<span class="sr-only">Kembali ke Atas</span>
 			<FontAwesomeIcon class="h-5 w-5" :icon="['fas', 'arrow-up']" />
 		</button>
@@ -26,8 +26,8 @@
 	const scroll = ref('hidden');
 	const colorMode = useColorMode();
 	const themes: Theme[] = [
+		{ id: 0, name: 'Mode Gelap', value: 'dark', icon: 'moon' },
 		{ id: 1, name: 'Mode Terang', value: 'light', icon: 'circle-half-stroke' },
-		{ id: 2, name: 'Mode Gelap', value: 'dark', icon: 'moon' },
 	];
 
 	onMounted(() => window.addEventListener('scroll', show));

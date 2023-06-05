@@ -1,5 +1,5 @@
 <template>
-	<section class="bg-stone-400 z-40 pt-6 pb-10 dark:bg-amber-100 md:pt-10 md:pb-20">
+	<section class="bg-[#0B2447] z-40 pt-6 pb-10 dark:bg-amber-100 md:pt-10 md:pb-20">
 		<div id="lottie-animation">
 			<ClientOnly>
 				<Vue3Lottie class="mx-auto text-center" animationLink="/lottie/nyPi74KfVT.json" id='lottie-icon' direction="alternate" />
