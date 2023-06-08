@@ -34,8 +34,8 @@
 
 	onBeforeUnmount(() => window.removeEventListener('scroll', show));
 
-	const currentThemeColor = computed(() => (colorMode.preference === 'system' ? 'desktop' : colorMode.value === 'dark' ? 'moon' : 'circle-half-stroke'));
-	const currentThemeName = computed(() => (colorMode.preference === 'system' ? 'Sistem' : colorMode.value === 'dark' ? 'Gelap' : 'Terang'));
+	const currentThemeColor = computed(() => (colorMode.preference === 'system' ? 'Sistem' : colorMode.value === 'dark' ? 'moon' : 'circle-half-stroke'));
+	const currentThemeName = computed(() => (colorMode.preference === 'system' ? 'desktop' : colorMode.value === 'dark' ? 'Gelap' : 'Terang'));
 
 	const show = () => {
 		const button = document.getElementById('backToTop');
