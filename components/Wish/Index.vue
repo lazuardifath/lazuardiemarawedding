@@ -167,4 +167,5 @@
 			await getMessages();
 		}
 	};
+	
 </script>
