@@ -1,11 +1,11 @@
 <template>
-	<div class="fixed bottom-[7rem] right-5 lg:right-8 z-30 flex flex-col gap-y-2 md:bottom-5">
+	<div class="fixed bottom-[7rem] right-5 lg:right-8 z-40 flex flex-col gap-y-2 md:bottom-5">
 		<button :class="`bg-[#d8b31f] floating-btn ${scroll}`" id="backToTop" type="button" title="Kembali ke Atas" @click="back">
 			<span class="sr-only">Kembali ke Atas</span>
 			<FontAwesomeIcon class="h-5 w-5" :icon="['fas', 'arrow-up']" />
 		</button>
 	</div>
-	<div class="fixed top-[1.0rem] right-5 lg:right-8 z-40 flex flex-col gap-y-2 md:bottom-5">
+	<div class="fixed top-[1.0rem] right-5 lg:right-8 z-20 flex flex-col gap-y-2 md:bottom-5">
 		<Listbox v-model="$colorMode.preference">
 			<ListboxButton class="floating-btn" :title="`Mode aktif: ${currentThemeName}`">
 				<span class="sr-only">Tema</span>
