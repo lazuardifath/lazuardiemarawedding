@@ -7,7 +7,7 @@
 					<hr class="border-gray-200 dark:border-slate-600" />
 				</div>
 				<h3 class="my-6 text-center font-semibold text-gray-200 dark:text-slate-600 md:my-8">
-					Do'a restu Anda merupakan karunia yang sangat berarti bagi kami. Jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi kado secara cashless.
+					Bagi keluarga dan sahabat yang ingin mengirimkan hadiah, silahkan mengirimkannya melalui tautan berikut
 				</h3>
 				<Disclosure>
 					<div class="text-center">
