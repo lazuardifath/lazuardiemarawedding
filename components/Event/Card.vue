@@ -14,7 +14,7 @@
 		</div>
 		<div class="flex flex-col items-center justify-center gap-y-3 lg:gap-y-5">
 			<p class="font-serif text-sm text-gray-200 dark:text-slate-600 md:text-base">Lokasi Acara</p>
-			<p class="font-serif text-sm text-gray-200 dark:text-slate-600 md:text-base">Jl. DR. Soetomo No.2, Prenam, Dukuhwringin, Kec. Slawi, Kabupaten Tegal, Jawa Tengah 52419</p>
+			<p class="font-serif text-sm text-gray-200 dark:text-slate-600 md:text-base">Gedung KORPRI, Jl. DR. Soetomo No.2, Prenam, Dukuhwringin, Kec. Slawi, Kabupaten Tegal, Jawa Tengah 52419</p>
 		</div>
 		<div class="mt-8">
 			<a class="btn" href="https://goo.gl/maps/moVnJDBPfjQmyJ3M7" target="_blank" rel="noopener noreferrer" title="Lihat Maps">

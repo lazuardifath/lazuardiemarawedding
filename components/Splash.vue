@@ -1,5 +1,5 @@
 <template>
-	<div class="fixed top-0 left-0 z-50 h-screen w-screen bg-slate-800 bg-[url('/images/splash.jpg')] md:bg-[url('/images/splashcrpp.jpg')] bg-cover bg-center bg-no-repeat md:bg-[50%_25%]" id="splash">
+	<div class="fixed top-0 left-0 z-50 h-screen w-screen bg-slate-800 bg-[url('/images/splash.jpg')] md:bg-[url('/images/splashcrpp.jpg')] v-lazy='imagePath' bg-cover bg-center bg-no-repeat md:bg-[50%_25%]" id="splash">
 		<div class="absolute inset-0 -z-10 bg-black/40"></div>
 		<div class="flex h-full w-full flex-col items-center justify-center gap-y-16">
 			<div class="space-y-6 text-center md:space-y-14 lg:space-y-10">
@@ -26,10 +26,13 @@
 
 <script setup lang="ts">
 	import type { LocationQueryValue } from 'vue-router';
-
+	import { defineComponent } from 'vue';
+	
+	
 	const { recipient } = defineProps<{ recipient: string | LocationQueryValue[] }>();
 	const isDisabled = ref(true);
 
+	
 	onMounted(() => {
 		isDisabled.value = false;
 	});
@@ -48,4 +51,7 @@
 
 		await audio.play();
 	};
+
+  
+
 </script>
